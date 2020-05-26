@@ -1,0 +1,30 @@
+html, body {
+  font-family : 'Droid Sans Mono', monospace;
+  font-size   : 18px;
+}
+
+section {
+  padding : 5px;
+  border  : 1px solid #ededed;
+}
+
+section + section {
+  margin-top : 10px;
+}
+
+.header {
+  font-weight : bold;
+}
+
+.newHands {
+  margin-bottom : 15px;
+}
+
+.playedBlock {
+  margin-top : 15px;
+}
+
+.tableResult {
+  font-style : italic;
+  margin-top : 15px;
+}

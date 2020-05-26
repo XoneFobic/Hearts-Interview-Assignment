@@ -1,0 +1,29 @@
+{
+  "name"         : "xonefobic/hearts",
+  "description"  : "Simplified Hearts game for job interview",
+  "require"      : {
+    "php"             : "^7.4",
+    "fzaninotto/faker": "^1.9.1"
+  },
+  "require-dev"  : {
+    "phpunit/phpunit"          : "^9.1",
+    "roave/security-advisories": "dev-master",
+    "laravel/homestead"        : "^10.8"
+  },
+  "autoload"     : {
+    "psr-4": {
+      "Hearts\\": "hearts/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "prefer-stable": true,
+  "scripts"      : {
+    "hearts": [
+      "@php -S localhost:8000"
+    ]
+  }
+}
